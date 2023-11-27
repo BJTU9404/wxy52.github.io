@@ -1,0 +1,8 @@
+LR = 1e-3
+The training process was manually terminated at the end of epoch 53.
+
+Unfortunately, the train_loss_log.txt & val_loss_psnr_log.txt for LR 1e-3 were overwrited by the corresponding files for LR 1e-4.
+However, the validation metrics were not improved with the LR decreased.
+So, we still used the model weight files generated with LR 1e-3.
+
+For the SVG tensorboard results, the orange curves in the figures attributed to LR 1e-3, and the blue curves in the figures attributed to LR 1e-4.
